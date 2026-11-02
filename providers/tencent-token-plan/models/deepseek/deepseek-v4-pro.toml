@@ -9,6 +9,11 @@
 # Zero cache-read cost follows the subscription convention, not zero plan points.
 # Cache-write price is omitted: the plan docs do not publish a separate write rate.
 # API: https://cloud.tencent.com/document/product/1823/132248
+# ID policy: use Tencent's recommended deepseek/deepseek-flash and
+# deepseek/deepseek-v4-pro IDs for the original-provider direct services.
+# Omit dated and alternate aliases to avoid duplicate catalog choices; this
+# does not imply those aliases are retired. Tencent manages the routed version.
+# Current documented upstream version: DeepSeek-V4-Pro-0813 (checked 2026-11-02).
 # Toggle: thinking.type = enabled|disabled
 # Effort: reasoning_effort = low|high|max
 schema = 2
